@@ -1,0 +1,5 @@
+name: TopDonorExpansion
+version: 1.0.0
+main: com.example.topdonor.TopDonorExpansionPlugin
+api-version: '1.20'
+softdepend: [PlaceholderAPI, CraftingStore]
