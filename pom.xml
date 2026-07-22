@@ -18,6 +18,13 @@
     </properties>
 
     <repositories>
+        <!-- JitPack for PlaceholderAPI -->
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+
+        <!-- PaperMC repo for paper-api -->
         <repository>
             <id>papermc-repo</id>
             <url>https://repo.papermc.io/repository/maven-public/</url>
@@ -25,6 +32,16 @@
     </repositories>
 
     <dependencies>
+        <!-- PlaceholderAPI from GitHub via JitPack -->
+        <dependency>
+            <groupId>com.github.PlaceholderAPI</groupId>
+            <artifactId>PlaceholderAPI</artifactId>
+            <!-- Use a tagged version or commit; 2.11.6 tag example -->
+            <version>2.11.6</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- Paper API (provided) -->
         <dependency>
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
